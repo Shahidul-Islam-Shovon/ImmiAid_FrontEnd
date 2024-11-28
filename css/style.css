@@ -7,20 +7,20 @@
 }
 body {
      margin: 0;
+     padding-top: 60px;
      
 }
 
 .navbar {
-     margin-top: -3%;
      background-color: #6a3bda;
      padding: 15px 20px;
      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
      position: sticky;
-     top: 0;
      z-index: 1000;
 }
 .header{
-     background-color: #f7efef;
+     background-color: #e9e8ecb7;
+     margin-top: 0%;
      padding: 15px;
      display: flex;
      justify-content:center;
@@ -200,8 +200,6 @@ body {
      text-align: right;
 }
 
-
-
 .hover-card {
      position: relative;
      overflow: hidden;
@@ -253,4 +251,99 @@ body {
 .trademark a{
      color: orangered;
      text-decoration: none;
+}
+
+
+/* navbar code */ 
+
+/* Full-width navbar with sticky functionality */
+.navbar {
+     position: fixed;
+     /* Use fixed positioning instead of sticky */
+     top: 0;
+     /* Ensure it stays at the top */
+     left: 0;
+     /* Align it to the left edge of the viewport */
+     width: 100%;
+     /* Full width of the page */
+     display: flex;
+     /* Horizontal layout */
+     justify-content: center;
+     /* Center items horizontally */
+     align-items: center;
+     /* Center items vertically */
+     background-color: #6a0dad;
+     /* Purple background */
+     z-index: 1000;
+     /* Keep it above other content */
+     /* Add a bottom border */
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+     /* Add shadow for styling */
+     padding: 10px 0;
+     /* Add vertical padding */
+}
+
+/* Styling each nav item */
+.nav-item {
+     padding: 10px 15px;
+     /* Space around each item */
+     margin: 0 5px;
+     /* Space between items */
+     border: 2px solid #fff;
+     /* Border around each item */
+     border-radius: 5px;
+     /* Rounded corners */
+     color: white;
+     /* Text color */
+     font-family: Arial, sans-serif;
+     /* Font styling */
+     font-size: 14px;
+     /* Font size */
+     text-align: center;
+     /* Center text */
+     background-color: transparent;
+     /* Transparent background for contrast */
+     cursor: pointer;
+     /* Pointer cursor for interaction */
+}
+
+/* Add hover effect for nav items */
+.nav-item:hover {
+     background-color: #fff;
+     /* White background on hover */
+     color: #6a0dad;
+     /* Purple text on hover */
+     transition: all 0.3s ease-in-out;
+     /* Smooth transition */
+}
+
+/* Search icon specific styling */
+.search-icon {
+     font-size: 18px;
+     /* Slightly larger font for the icon */
+     border-radius: 50%;
+     /* Circle around the icon */
+     padding: 8px;
+     /* Adjust padding for better appearance */
+}
+
+/* Make the navbar responsive */
+@media (max-width: 768px) {
+     .navbar {
+          flex-wrap: wrap;
+          /* Allow items to wrap to the next line */
+     }
+
+     .nav-item {
+          flex: 1 1 auto;
+          /* Flexible width for smaller screens */
+          text-align: center;
+     }
+}
+
+.gap_fixing{
+     width: 100%;
+     height: 17px;
+     background-color: #7c7575c7;
+     margin-top: -3%;
 }
