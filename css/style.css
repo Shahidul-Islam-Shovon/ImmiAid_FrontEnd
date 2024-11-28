@@ -1,9 +1,14 @@
 /* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    font-family: Noto Sans"
+}
 body {
      margin: 0;
-     font-family: 'Roboto Slab';
+     
 }
-
 
 .navbar {
      margin-top: -3%;
@@ -14,7 +19,6 @@ body {
      top: 0;
      z-index: 1000;
 }
-
 .header{
      background-color: #f7efef;
      padding: 15px;
@@ -23,14 +27,12 @@ body {
      align-items:end;
      
 }
-
 .menu {
      list-style: none;
      display: flex;
      margin: 0;
      padding: 0;
 }
-
 .menu li {
      margin: 0;
      position: relative;
@@ -187,7 +189,7 @@ body {
 
 /* Custom Styling for First Two Slides (Left-Aligned) */
 .custom-slide-left {
-     left: 53%;
+     left: 15%;
      right: auto;
 }
 
@@ -197,6 +199,8 @@ body {
      right: 52%;
      text-align: right;
 }
+
+
 
 .hover-card {
      position: relative;
