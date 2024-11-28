@@ -4,16 +4,24 @@ body {
      font-family: 'Roboto Slab';
 }
 
+
 .navbar {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
+     margin-top: -3%;
      background-color: #6a3bda;
      padding: 15px 20px;
      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
      position: sticky;
      top: 0;
      z-index: 1000;
+}
+
+.header{
+     background-color: #f7efef;
+     padding: 15px;
+     display: flex;
+     justify-content:center;
+     align-items:end;
+     
 }
 
 .menu {
